@@ -1,0 +1,7 @@
+<h2>Company List</h2>
+<ul>
+  <li *ngFor="let company of companies">
+    {{ company.name }}
+    <button (click)="viewDetails(company)">View Details</button>
+  </li>
+</ul>
